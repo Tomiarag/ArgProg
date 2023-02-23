@@ -1,0 +1,108 @@
+
+* {
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body {      
+    background-color: whitesmoke;
+}
+.header {
+    width: fit-content;
+    height: min-content;
+    color: aliceblue;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: cadetblue;
+}
+
+
+#menu {
+    margin: auto;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: green;
+    color: azure;
+    padding: 10px 30px;
+    text-decoration: none;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+}
+
+#hoja {
+    /* background-color: cadetblue; */
+    flex-direction: row;
+    }
+
+
+#ladoUno {
+     width: 40%;
+    }
+
+        
+#ladoDos {
+    display: grid;
+    grid-template-rows: auto;
+    position: initial;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 60%;
+    }
+    
+.bokita {
+    background-color: goldenrod;
+}
+
+.idiomas {
+    padding-top: 20px;
+    color: black;
+}
+div#contacto {
+    padding-top: 20px;
+    color: black;
+
+}
+div#info {
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    margin: 10px;
+    color: rgb(4, 0, 255);
+}
+
+div#formacion {
+    color: rgb(0, 105, 175);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div#laboral {
+    color:rgb(62, 22, 100);
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+div#habilidades {
+    color:rgb(62, 22, 100);
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div#redes {
+    color: black;
+}
+
+footer {
+    border: 1px solid rgb(1, 173, 130);
+    flex-direction: row;
+  }
+  svg {
+    padding: 10px;;
+  }
