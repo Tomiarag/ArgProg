@@ -1,33 +1,32 @@
-
+/*DISEÑO DEL PROYECTO */
 * {
     box-sizing:content-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     }
 
 body {      
-    background-color: whitesmoke;
+    background-color: rgb(224, 231, 235);
 }
 .header {
     width: fit-content;
     height: min-content;
-    color: aliceblue;
+    color: rgb(180, 212, 255);
 }
 
 .container {
     width: 1000px;
     margin: auto;
     display: flex;
-    background-color: cadetblue;
+    background-color: rgb(184, 198, 238);
 }
-
-
 #menu {
     margin: auto;
     margin-top: 10px;
 }
 .navbar{
-    background-color: green;
+    background-color:rgb(0, 102, 128);
     color: azure;
     padding: 10px 30px;
     text-decoration: none;
@@ -35,9 +34,10 @@ body {
     border: none;
     border-radius: 8px;
 }
-
+.navbar:hover{
+    background-color: rgb(32, 53, 97);
+}
 #hoja {
-    /* background-color: cadetblue; */
     flex-direction: row;
     }
 
@@ -45,19 +45,18 @@ body {
 #ladoUno {
      width: 40%;
     }
-
         
 #ladoDos {
     display: grid;
     grid-template-rows: auto;
     position: initial;
-    border: 1px solid goldenrod;
+    border: 1px solid gold;
     margin: 10px;
     width: 60%;
     }
     
 .bokita {
-    background-color: goldenrod;
+    background-color: gold;
 }
 
 .idiomas {
@@ -74,35 +73,38 @@ div#info {
     height: 500px;
     padding: 50px;
     margin: 10px;
-    color: rgb(4, 0, 255);
+    color: black;
+    border: 1px solid gold;
+    padding-right: 20px;
+}
+div#redes {
+    padding-top: 20px;
+    color: black; 
+}
+div#SocialMedia {
+    font-size: 50px;
 }
 
 div#formacion {
-    color: rgb(0, 105, 175);
-    padding-left: 10px;
+    color: black;
+    padding-left: 30px;
     padding-right: 10px;
+    margin:initial;
 }
 div#laboral {
-    color:rgb(62, 22, 100);
+    color:black;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
+    padding-bottom: 20px;
+    margin:initial;
+
 
 }
 div#habilidades {
-    color:rgb(62, 22, 100);
+    color:black;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
+    margin:initial;
 }
-div#redes {
-    color: black;
-}
-
-footer {
-    border: 1px solid rgb(1, 173, 130);
-    flex-direction: row;
-  }
-  svg {
-    padding: 10px;;
-  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Curriculum online</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAc/8AAAAAAP///wDJyckARZn/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERESIiIiIRERETMzMzMyERERERERETIRERFERERBMhEREQAAAUEyERERAAAAQTIREREAAABBMhEREQAAAEEyERERAAAAQTIREREAAABBMhEREQAAAEEyERERABEQQTEREREAAABBERERERERERERERERERERERERHwDwAA4AcAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADABwAAwA8AAOAfAAD//wAA" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <header class="container test">
+        <nav id="menu">
+            <button class="navbar" onclick="onClickMenu('info')">Info</button>
+            <button class="navbar" onclick="onClickMenu('formacion')">Educacion</button>
+            <button class="navbar" onclick="onClickMenu('laboral')">Experiencia</button>
+            <button class="navbar" onclick="onClickMenu('habilidades')">Habilidades</button>
+        </nav>
+    </header>
+    <main class="container" id="hoja">
+            <section id="ladoUno">        
+                <div id="info">
+                        <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="Texto alternativo que aparecerá si la imagen no se carga exitosamente" 
+                        height="128px" widht="128px"/>
+                        <h1>ISMAEL OLIVERA</h1>
+                        <p>Programador web</p>
+                    <div id="contacto">
+                        <h1>Contacto</h1>
+                        <p>Correo electrónico:</p>
+                        <p>ismaelolivera@gmail.com</p>
+                        <p><br>Número de teléfono:</br></p>
+                        <p>+5491154827325</p>
+                    </div>
+
+                    <div class="idiomas">
+                        <h2>Idiomas</h2>
+                        <ul>
+                            <li>Español nativo</li>
+                            <li>Inglés - Nivel intermedio</li>
+                            <li>Francés - Nivel básico</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="redes">
+                      <h1>RRSS</h1>
+                      <div id="SocialMedia"> 
+                           <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" style="color:rgb(0, 102, 128);"></i></a>
+                           <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color:rgb(0, 102, 128)"></i></a>
+                           <a href="https://github.com/"><i class="fa-brands fa-github" style="color:rgb(0, 102, 128)"></i></a>
+                      </div>
+                    </div>
+                </div>                 
+            </section>     
+            <section id="ladoDos">    
+                <div id="formacion">
+                    <h1>FORMACION ACADEMICA</h1>
+                    <h3>Estudios Universitarios</h3>
+                    <p>Ingeniero en Sistemas de Información - UTN</p>
+                    <p>2015<br></br></p>
+                    <h3>Complementario</h3>
+                    <p>UTN - Diseño UX-UI</p>
+                    <p>2019<br></br></p>
+                    <h3>Educación Secundaria</h3>
+                    <p>Colegio Nacional de Buenos Aires</p>
+                    <p>2007<br></br></p>
+                </div>            
+                <div id="laboral">
+                    <h1>EXPERIENCIA LABORAL</h1>
+                    <ul><h3>2021 - actualidad:</h3>
+                        <p>Programador web Senior - Air France</p>
+                        <li>Desarrollo de aplicaciones web para clientes de la empresa</li>
+                        <li>Análisis de requerimientos y diseño de aplicaciones</li>
+                        <h3>2019 - 2021:</h3>
+                        <p>Programador web Junior - Carrefour</p>
+                        <li>Diseño de aplicaciones web</li>
+                        <li>Soporte técnico a clientes</li>
+                        <li>Mantenimiento de aplicaciones</li>
+                    </ul>  
+                </div>
+                <div id="habilidades">
+                    <h1>HABILIDADES</h1>
+                    <ul><p>Lenguajes de Programación:</p>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                    <ul>Front-end:</p>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <script type="text/javascript" src="index.js"></script>
+            </section>
+        <footer>
+        </footer>
+    </main>    
+</body>
+</html>
